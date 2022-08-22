@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" >
+      <div class="container-lg container-sm-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleControls home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#card">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conduct">Conduct</a>
+            </li>
+            
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="carouselExampleControls home" class="carousel slide" data-bs-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bg-01.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bg-02.jpg" class="d-block " alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+
+
+
+
+
+</body>
+<main>
+
+  <div class="container overflow-hidden my-5"id="product">
+    <div class="row gy-5">
+      <div class="col-lg-4 col-md-6 col-sm-12 "data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="p-3 border bg-light">
+          <div class="d-flex  justify-content-between align-items-center  bg-primary px-2">
+            <h2>Watch</h2>
+            <img class="img-fluid img-height" src="./img/watch-01.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="p-3 border bg-light">
+          <div class="d-flex  justify-content-between align-items-center bg-primary px-2">
+            <h2>Watch</h2>
+            <img class="img-fluid img-height" src="./img/watch-01.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 "data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="p-3 border bg-light">
+          <div class="d-flex  justify-content-between align-items-center bg-primary px-2">
+            <h2>Watch</h2>
+            <img class="img-fluid img-height" src="./img/watch-01.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <section class="container" data-aos="fade-up" >
+    <div class="row row-cols-1 row-cols-md-3 g-4 "  >
+      <div class="col-lg-4 col-md-6 col-sm-12" >
+        <div class="card h-100">
+          <img src="img/products/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" >
+        <div class="card h-100">
+          <img src="img/products/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" >
+        <div class="card h-100">
+          <img src="img/products/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 " >
+        <div class="card h-100">
+          <img src="img/products/5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card h-100">
+          <img src="img/products/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <section class="container" id="card">
+  <div class="row row-cols-1 row-cols-md-3 g-4 my-5" >
+    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="flip-left"data-aos-duration="2000" >
+      <div class="card text-center">
+        <img src="img/testimonial/1.jpg" class="img-fluid rounded-circle  img-thumbnail mx-auto p-1 mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="flip-left"data-aos-duration="2000" >
+      <div class="card text-center">
+        <img src="img/testimonial/2.jpg" class="img-fluid rounded-circle  img-thumbnail mx-auto p-1 mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12"data-aos="flip-left"data-aos-duration="2000" >
+      <div class="card text-center">
+        <img src="img/testimonial/3.jpg" class="img-fluid rounded-circle  img-thumbnail mx-auto p-1 mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+ </section>
+ <section class="container" id="conduct">
+   <div class="row">
+     
+     <div class="col-lg-6 col-md-6 col-sm-12"data-aos="fade-right">
+      <div class="text-center">
+        <h2 class="mb-2">Contact Us</h2>
+        <hr class="w-25 m-auto mb-5">
+       </div>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-12">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+     </div>
+     <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+       <img src="img/971.jpg" class="img-fluid" alt="">
+     </div>
+   </div>
+ </section>
+ 
+</main>
+<footer class="container bg-light">
+  <div class="row text-center align-items-center  mt-5 mb-1 p-5">
+    <p>&copy; 2021; <span class="text-primary">Md Khairul Islam</span></p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
